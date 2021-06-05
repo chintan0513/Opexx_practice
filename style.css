@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    max-width: auto;
+}
+nav ul{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+nav ul li{
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 500;
+    padding: 0px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+}
+main {
+    background-image: url(assets/Fantasy-City.jpg);
+    background-size: cover;
+    height: 950px;
+    background-repeat: no-repeat;
+}
+main h1 {
+    position: relative;
+    font-size: 3rem;
+    top: 200px;
+    margin-left: auto;
+    left: 0;
+}
+.content_scnd {
+    top: 650px;
+    position: relative;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.content_scnd .btn {
+    padding: 10px 50px;
+}
+.abt h1{
+    font-size: 3rem;
+}
+.abt p{
+    font-size: x-large;
+}
+i{
+    font-size: 70px;
+    color: blue;
+}
+.inf h3{
+    font-size: 45px;
+}
+.inf p {
+    font-size: 20px;
+}
+.add h6, .slider{
+    font-size: large;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.add .row .col-md-4 p{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*price.html*/
+
+.banner span {
+    color: blue;
+    font-size: 2rem;
+}
+.banner .card li{
+    list-style: none;
+    margin-left: auto;
+}
+.banner .card:hover{
+    border: 1px solid blue;
+}
+.images {
+    height: 28px;
+    margin: 10px;
+    text-align: center;
+}
+.intro .abt {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*search.html*/
+.links {
+    background-color: #5DBCD2;
+    color: white;
+}
+.links  a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.links a:hover{
+    text-decoration: underline;
+    color: black;
+}.links .extrn {
+    display: none;
+}
+.links .btn {
+    padding: 10px 30px;
+    width: 40%;
+    margin: 10px;
+}
+.links .form input{
+    border: none;
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.form .txt {
+    width: 40%;
+    margin-right: 20px;
+}
+.form .gps {
+    width: 27%;
+}
+.form .val {
+    width: 33%;
+    margin-right: 20px;
+}
+.form .form-select {
+    width: 33%;
+    margin-right: 20px;
+}
+.links .form input[type=text]{
+    border-radius: 0px;
+}
+.links .othe:hover {
+    color: white;
+}
+.lst h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+.lst span{
+    color: blue;
+    font-size: 26px;
+}

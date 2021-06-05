@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine for public tenders worldwide | Opexx</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/980b7a1905.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="connect.js"></script>
+</head>
+<body>
+
+    <nav class="navbar bg-primary navbar-expand-lg">
+        <div class="container-fluid">
+            <ul class="navbar-item d-flex">
+                <li><a href="index.html" >OPEXX</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="price.html">PRICING</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid links">
+        <div class="container text-center pb-3">
+            <div class="head">
+                <a href="#">Live Tenders</a>
+                <a href="#" onclick="myFun()" ondblclick="myFun1()" id="link">Winners</a>
+            </div>
+            <div class="p-3 extrn" id="extrn">
+                <p>Winner and award information allow you to analyze previously awarded contracts. Start your free
+                    14-day trial now to see which companies have won tenders and which organizations have issued
+                    tenders before.</p>
+                    <button class="btn btn-success">START FREE TRIAL</button>
+                    <button class="btn btn-light text-primary">Login</button>
+            </div>
+            <div class="form pt-3" id="form">
+                <input type="text" placeholder="  Keyword" name="word" class="txt">
+                <input type="text" placeholder="  Location" name="gps" class="gps">
+                <input type="text" placeholder="  Min Value" name="word" id="val" class="val">
+                <input type="text" placeholder="  Max Value" name="word" id="val" class="val">
+                <input type="text" placeholder="  Buyer Name" name="word" id="val" class="val">
+                <input type="text" placeholder="  CPV" name="word" id="val" class="val">
+                <div class="d-flex justify-content-center" id="slct">
+                    <select class="form-select" aria-label="Default select example">
+                        <option>Published</option>
+                        <option>Any Time</option>
+                        <option>Today</option>
+                        <option>Within Last 7 Day</option>
+                        <option>Within Last 30 Day</option>
+                        <option>Custom Range</option>
+                    </select>
+                    <select class="form-select" aria-label="Default select example">
+                        <option>Deadline</option>
+                        <option>Any Time</option>
+                        <option>In the Future</option>
+                        <option>Within Last 7 Day</option>
+                        <option>Within Last 30 Day</option>
+                        <option>Custom Range</option>
+                    </select>
+                </div>
+                <br>
+                <a href="#" class="othe">Show More/ Less</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center lst">
+        <div class="m-3 p-3">
+            <h1 class="display-4">9,000,000 tenders at your fingertips.</h1>
+            <span>Start free trial for 14 days. No credit card needed.</span><br>
+        </div>
+        <button class="btn btn-success">START FREE TRIAL</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
